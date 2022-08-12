@@ -1,0 +1,34 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.card {
+  height: 250px;
+  width: 200px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card img {
+  padding: 10px;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.card p {
+  font-size: 16px;
+  line-height: 1.4;
+  opacity: .5;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
